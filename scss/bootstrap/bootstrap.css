@@ -555,7 +555,9 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
-
+.viedo {
+  display: flex;
+}
 .container {
   width: 100%;
   padding-right: 15px;
