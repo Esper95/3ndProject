@@ -100,7 +100,7 @@
             line-height: 54px !important;
             margin: 0;
             @media ( max-width: 768px) {
-                font-size:35px;
+                font-size: 35px;
                 line-height: 40px !important;
             }
             @media ( max-width: 414px) {
@@ -148,7 +148,7 @@
         margin-top: 20px;
         margin-bottom: 20px;
         @media ( max-width: 768px) {
-            font-size:35px;
+            font-size: 35px;
             line-height: 40px !important;
         }
         @media ( max-width: 414px) {
@@ -173,7 +173,7 @@
 .banner-img {
     text-align: right;
     @media(max-width: 767px) {
-        width:60%;
+        width: 60%;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
@@ -575,6 +575,7 @@
 }
 
 //--------- end brand Area -------------//
+
 /* Portfolio Details Area css
 ============================================================================================ */
 
@@ -658,6 +659,7 @@
     }
 }
 
+
 /* End Portfolio Details Area css
 ============================================================================================ */
 
@@ -732,7 +734,7 @@
 //--------- Start project detials Area -------------//
 .project-details-right {
     @media(max-width: 991px) {
-        margin-top:50px;
+        margin-top: 50px;
     }
     .details-info {
         .names {
@@ -772,16 +774,17 @@
 }
 
 .about-content {
-    margin-top: 110px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     padding: 50px 0px;
     @media(max-width: 767px) {
-        margin:120px 16px;
+        margin: 120px 16px;
     }
     h1 {
         font-size: 48px;
         font-weight: 100;
         @media ( max-width: 768px) {
-            font-size:35px;
+            font-size: 35px;
         }
         @media ( max-width: 414px) {
             font-size: 30px;
@@ -863,7 +866,7 @@
     }
     .address-wrap {
         @media(max-width: 991px) {
-            margin-bottom:30px;
+            margin-bottom: 30px;
         }
         .single-contact-address {
             margin-bottom: 8px;
@@ -891,6 +894,7 @@
 }
 
 // ============= End contact Page Styles  =============  //
+
 /*
 ################
                Start Blog Home  Page style
@@ -929,7 +933,7 @@
         margin-left: auto;
         margin-right: auto;
         @media(max-width: 414px) {
-            font-size:30px;
+            font-size: 30px;
         }
     }
     p {
@@ -988,7 +992,7 @@
             text-align: right;
             margin-top: 35px;
             @media(max-width: 767px) {
-                text-align:left;
+                text-align: left;
             }
             .tags {
                 margin-bottom: 30px;
@@ -1103,7 +1107,7 @@
     padding: 20px 0px;
     border: 1px solid #eee;
     @media(max-width: 991px) {
-        margin-top:50px;
+        margin-top: 50px;
     }
     .single-sidebar-widget {
         margin: 30px 30px;
@@ -1126,19 +1130,19 @@
             border-top-left-radius: 20px;
             background: $primary-color;
         }
-        ::-webkit-input-placeholder {
+         ::-webkit-input-placeholder {
             /* Chrome/Opera/Safari */
             color: $white;
         }
-        ::-moz-placeholder {
+         ::-moz-placeholder {
             /* Firefox 19+ */
             color: $white;
         }
-        :-ms-input-placeholder {
+         :-ms-input-placeholder {
             /* IE 10+ */
             color: $white;
         }
-        :-moz-placeholder {
+         :-moz-placeholder {
             /* Firefox 18- */
             color: $white;
         }
@@ -1294,22 +1298,22 @@
                 border-color: #ccc;
             }
         }
-        ::-webkit-input-placeholder {
+         ::-webkit-input-placeholder {
             /* Chrome/Opera/Safari */
             font-size: 13px;
             color: #ccc;
         }
-        ::-moz-placeholder {
+         ::-moz-placeholder {
             /* Firefox 19+ */
             font-size: 13px;
             color: #ccc;
         }
-        :-ms-input-placeholder {
+         :-ms-input-placeholder {
             /* IE 10+ */
             font-size: 13px;
             color: #ccc;
         }
-        :-moz-placeholder {
+         :-moz-placeholder {
             /* Firefox 18- */
             font-size: 13px;
             color: #ccc;
@@ -1349,11 +1353,13 @@
     }
 }
 
+
 /*
 ################
                End Blog Home  Page style
 ################
 */
+
 
 /*
 ################
@@ -1465,7 +1471,7 @@
     padding: 50px 20px;
     margin-top: 50px;
     @media(max-width: 414px) {
-        padding:50px 8px;
+        padding: 50px 8px;
     }
     h4 {
         text-align: center;
@@ -1532,13 +1538,13 @@
     .name {
         padding-left: 0px;
         @media(max-width: 991px) {
-            padding-right:0px;
+            padding-right: 0px;
         }
     }
     .email {
         padding-right: 0px;
         @media(max-width: 991px) {
-            padding-left:0px;
+            padding-left: 0px;
         }
     }
     .form-control {
@@ -1553,22 +1559,22 @@
             box-shadow: none;
         }
     }
-    ::-webkit-input-placeholder {
+     ::-webkit-input-placeholder {
         /* Chrome/Opera/Safari */
         font-size: 13px;
         color: #777;
     }
-    ::-moz-placeholder {
+     ::-moz-placeholder {
         /* Firefox 19+ */
         font-size: 13px;
         color: #777;
     }
-    :-ms-input-placeholder {
+     :-ms-input-placeholder {
         /* IE 10+ */
         font-size: 13px;
         color: #777;
     }
-    :-moz-placeholder {
+     :-moz-placeholder {
         /* Firefox 18- */
         font-size: 13px;
         color: #777;
@@ -1583,6 +1589,7 @@
         }
     }
 }
+
 
 /*
 ################

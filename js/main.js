@@ -1,3 +1,53 @@
+$(document).ready(function($) {
+    var $form_modal = $('.user-modal'),
+        $form_login = $form_modal.find('#login'),
+        $form_signup = $form_modal.find('#')
+});
+
+
+
+// Get the modal
+var modal = document.getElementById("login");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+
+
+
+
+
+
+function login() {
+    window.location.href = 'index.html#login'
+}
+$(document).ready(function($) {
+
+    $(".scroll").click(function(event) {
+        event.preventDefault();
+        $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 500);
+    });
+});
 $(document).ready(function() {
     "use strict";
 
@@ -164,7 +214,7 @@ $(document).ready(function() {
         loop: true,
         margin: 30,
         autoplayHoverPause: true,
-        smartSpeed:500,
+        smartSpeed: 500,
         dots: false,
         // autoplay: true,
         responsive: {
@@ -186,8 +236,8 @@ $(document).ready(function() {
         loop: true,
         margin: 30,
         dots: true,
-        autoplayHoverPause: true, 
-        smartSpeed:500,               
+        autoplayHoverPause: true,
+        smartSpeed: 500,
         autoplay: true,
         responsive: {
             0: {
@@ -392,8 +442,8 @@ $(document).ready(function() {
     /*----------------------------------------------------*/
     /*  Isotope Fillter js
     /*----------------------------------------------------*/
-	$(window).load(function () {
-        $('.project-filter ul li').click(function () {
+    $(window).load(function() {
+        $('.project-filter ul li').click(function() {
             $('.project-filter ul li').removeClass('active');
             $(this).addClass('active');
             var filterData = $(this).attr('data-filter');
@@ -410,7 +460,7 @@ $(document).ready(function() {
     });
 
     //------- Progress Bar --------//
-    $.fn.bekeyProgressbar = function (options) {
+    $.fn.bekeyProgressbar = function(options) {
 
         var $this = $(this);
 
@@ -436,7 +486,7 @@ $(document).ready(function() {
 
     };
 
-    
+
     $('.progressBar--animateNone').bekeyProgressbar({
         animate: false,
         animateText: false
