@@ -57,8 +57,8 @@
                             </ul>
                         </li>
                         <li><a href="contact.html">Contact</a></li>
-                        <li><a id="myBtn" style="cursor: pointer; color: black;">로그인</a></li>
-                        <li><a href="#join">회원가입</a></li>
+                        <li><a class="login_page" style="cursor: pointer; color: black;">로그인</a></li>
+                        <li><a class="join_page" style="cursor: pointer; color: black;">회원가입</a></li>
                     </ul>
                 </nav>
             </div>
@@ -72,17 +72,17 @@
             <div id="formContent" style="align-content: center;">
                 <span class="close">&times;</span><br>
                 <!-- Tabs Titles -->
-                <div style="display: flex; padding-left: 150px;">
-                    <h2 class="active"><a href="#login"> Sign In</a> </h2>
-                    <h2 class="inactive underlineHover"><a href="#join" data-target="#join">Sign Up</a> </h2>
+                <div style="display: flex; padding-left: 156px;">
+                    <h2 class="active"><a>로그인</a> </h2>
+                    <h2 class="inactive underlineHover join_page1"><a>회원가입</a> </h2>
                 </div>
                 <br><br>
                 <!-- Login Form -->
                 <form>
-                    <input type="text" id="login" class="fadeIn first" name="login" placeholder="ID">
-                    <input type="text" id="password" class="fadeIn first" name="login" placeholder="PASSWORD">
+                    <input type="text" class="fadeIn first" name="id" placeholder="ID">
+                    <input type="text" class="fadeIn first" name="password" placeholder="PASSWORD">
                     <br><br>
-                    <input type="submit" class="fadeIn first" value="Log In">
+                    <input type="submit" class="fadeIn first" value="로그인">
                 </form>
             </div>
         </div>
@@ -92,17 +92,19 @@
             <div id="formContent" style="align-content: center;">
                 <span class="close">&times;</span><br>
                 <!-- Tabs Titles -->
-                <div style="display: flex; margin-left: 300px;">
-                    <h2 class="active"><a href="#login"> Sign In</a> </h2>
-                    <h2 class="inactive underlineHover"><a href="#join">Sign Up</a> </h2>
+                <div style="display: flex; margin-left: 156px;">
+                    <h2 class="inactive underlineHover login_page1"><a> 로그인</a> </h2>
+                    <h2 class="active"><a>회원가입</a> </h2>
                 </div>
                 <br><br>
                 <!-- join Form -->
                 <form>
-                    <input type="text" id="login" class="fadeIn first" name="login" placeholder="ID???">
-                    <input type="text" id="password" class="fadeIn first" name="login" placeholder="PASSWORD">
+                    <input type="text" class="fadeIn first" name="id" placeholder="ID">
+                    <input type="text" class="fadeIn first" name="password" placeholder="PASSWORD">
+                    <input type="text" class="fadeIn first" name="phone" placeholder="PHONE">
+                    <input type="text" class="fadeIn first" name="name" placeholder="NAME">
                     <br><br>
-                    <input type="submit" class="fadeIn first" value="Log In">
+                    <input type="submit" class="fadeIn first" value="회원 가입">
                 </form>
             </div>
         </div>
@@ -119,7 +121,7 @@
                 </div>
                 <div style="margin-left: 520px; margin-top: -805px;">
                     <video muted autoplay loop controls poster="./img/banner-bg.jpg" style="background-color: black; width: 533px; height: 337px; ">
-						<source src="./mp4/test.mp4 " type="video/mp4 ">
+						<source src="./mp4/IU.mp4 " type="video/mp4 ">
 					</video>
                 </div>
             </div>
