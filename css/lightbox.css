@@ -1010,15 +1010,13 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     bottom: 0;
     z-index: 1040;
     background-color: #000;
-    opacity: 0;
+    opacity: 0.8;
     -webkit-transition: opacity .15s ease 0s;
     -o-transition: opacity .15s ease 0s;
     transition: opacity .15s ease 0s
 }
 
-.lg-backdrop.in {
-    opacity: 1
-}
+
 
 .lg-css3.lg-no-trans .lg-current,
 .lg-css3.lg-no-trans .lg-next-slide,

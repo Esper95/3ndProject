@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*--------------------------- Color variations ----------------------*/
 
 
@@ -64,7 +71,7 @@
 
 body {
     color: #777777;
-    font-family: "Poppins", sans-serif;
+    font-family:"GmarketSansMedium";
     font-size: 14px;
     font-weight: 200;
     line-height: 1.625em;
@@ -150,7 +157,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Poppins", sans-serif;
+    font-family: "GmarketSansMedium";
     color: #222;
     line-height: 1.2em !important;
     margin: 0;
@@ -164,7 +171,7 @@ h6 {
 .h5,
 .h6 {
     margin: 0;
-    font-family: "Poppins", sans-serif;
+    font-family: "GmarketSansMedium";
     font-weight: 600;
     color: #222;
 }
@@ -2251,7 +2258,7 @@ h6 {
     content: "\f107";
     position: absolute;
     right: 15px;
-    font-family: FontAwesome;
+    font-family: "GmarketSansMedium";
     font-style: normal;
     font-weight: normal;
 }
